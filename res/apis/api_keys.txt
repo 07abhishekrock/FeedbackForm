@@ -1,0 +1,47 @@
+weather find ip address from the following address
+https://api.ipify.org/?format=json
+
+now use this ip address to get data regarding weather and such
+
+
+your api key for pexels
+563492ad6f917000010000010b4bf0d9e54e4f48899204734ec5c5ec
+
+google maps
+AIzaSyA82ZkKrsbYgK53So9kZUxIScUWwJKO8Lk
+
+https://maps.geoapify.com/v1/staticmap?style=osm-carto&width=600&height=400&center=lonlat:-80.9115,26.8765&zoom=14&apiKey=81ab02895fc3468fb34372533a551c91
+
+
+new url
+
+https://maps.geoapify.com/v1/staticmap?style=osm-carto&width=600&height=400&center=lonlat:80.56,25.94&zoom=8.4&apiKey=81ab02895fc3468fb34372533a551c91
+
+
+autocomplete api
+https://api.locationiq.com/v1/autocomplete.php?key=pk.bf20e49e1f210c97224345e22a685062&q=Lucknow
+
+
+load static maps
+https://maps.locationiq.com/v2/staticmap?key=pk.bf20e49e1f210c97224345e22a685062&center=26.85,80.949&zoom=13&size=1000x700&format=<format>&maptype=<MapType>&markers=icon:<icon>|<latitude>,<longitude>&markers=icon:<icon>|<latitude>,<longitude>
+
+weather api key
+8cee7a0728ccc9afe638705924149b6b
+
+load maps
+https://maps.locationiq.com/v2/staticmap?key=pk.bf20e49e1f210c97224345e22a685062&center=26.85,80.949&zoom=13&size=1000x700&markers=icon:large-blue-cutout|26.85,80.949
+
+
+
+
+ACCUWEATHER
+weather api returns location keys accuweather
+http://dataservice.accuweather.com/locations/v1/cities/autocomplete?apikey=tLMfubTiC9M8jLRe8EmWVgUwHCN9uvuL&q=lucknow&language=en
+
+
+accuweather returns weather information from location key and apikey
+http://dataservice.accuweather.com/currentconditions/v1/<location_key>?apikey=tLMfubTiC9M8jLRe8EmWVgUwHCN9uvuL&details=true
+
+
+openweather api
+190ef75e362df4cab6d7dfd22afdc62d

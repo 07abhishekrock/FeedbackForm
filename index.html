@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Feedback Form</title>
+  <link rel="stylesheet" href="styles.css">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat:100,100italic,200,200italic,300,300italic,regular,italic,500,500italic,600,600italic,700,700italic,800,800italic,900,900italic" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css?family=Raleway:100,200,300,regular,500,600,700,800,900,100italic,200italic,300italic,italic,500italic,600italic,700italic,800italic,900italic" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css?family=Poppins:100,100italic,200,200italic,300,300italic,regular,italic,500,500italic,600,600italic,700,700italic,800,800italic,900,900italic" rel="stylesheet" />
+</head>
+<body>
+  <section>
+<div class="heading">
+  FEEDBACK
+</div>  
+<div class="combo-box-container">
+    <ul class="combo-elements retract">
+      <li class="element">Mr John Smith</li>
+      <li class="element">Miss Jane Doe</li>
+      <li class="element">Mr Steve Stane</li>
+      <li class="element">Miss Anna Lanes</li>
+      <li class="element">Mr Jonathan Cred</li>
+    </ul>
+    <div class="combo-box">
+    <span class="selected">Miss Jane Doe</span>
+    <div class="arrow" count="0"></div>
+    <span class="text">TEACHER SELECTED</span>
+    </div>
+</div>
+<div class="feedback_container">
+
+  <div class="page-label">
+    <div class="page_label_value active">1</div>
+    <div class="page_label_line non-visited"></div>
+    <div class="page_label_value non-visited">2</div>
+    <div class="page_label_line non-visited"></div>
+    <div class="page_label_value non-visited">3</div>
+  </div>
+  <span class="feedback_heading">TIME SENSE</span> 
+  <button class="arrow" type="up" onclick="arrow_pressed_up()"></button>
+  <ul class="feedback_list">
+  <li class="feedback_block" index=0>
+    <span class="number">1</span>
+    <span class="question">Punctuality in taking classes.</span>
+    <div class="progress-bar">
+      <div class="progress" index=0>
+        <span>11</span>
+      </div>
+    </div>
+  </li>
+  <li class="feedback_block">
+    <span class="number">2</span>
+    <span class="question">Regularity in taking classes.</span>
+    <div class="progress-bar">
+      <div class="progress" index=1>
+        <span>11</span>
+      </div>
+    </div>
+  </li>
+  <li class="feedback_block " >
+    <span class="number">3</span>
+    <span class="question">Syllabus Completion.</span>
+    <div class="progress-bar">
+      <div class="progress" index=2>
+        <span>11</span>
+      </div>
+    </div>
+  </li>
+  </ul>
+  <ul class="feedback_block_list">
+    <li class="block disappear">Professional</li>
+    <li class="block disappear">Strict</li>
+    <li class="block disappear">Friendly</li>
+    <li class="block disappear">Creative</li>
+    <li class="block disappear">Unprofessional</li>
+    <li class="block disappear">Experienced</li>
+  </ul>
+  <button class="arrow visible" type="down" count=0 onclick="arrow_down()" page=0 prev_count=0>
+    <span>Next</span>
+  </button>
+
+    <!--feedback ending message container begins here-->
+    <div class="done_message disappear">
+      <div class="tick_mark"></div>
+      <span class="done_text">Feedback Done For</span>
+      <span class="teacher_name">Miss Jane Doe</span>
+    </div>
+    <!--ends here-->
+    <!--corner formatting divs-->
+    <div class="corners">
+      <div class="corner_top_left"></div>
+      <div class="corner_top_right"></div>
+      <div class="corner_bottom_left"></div>
+      <div class="corner_bottom_right"></div>
+    </div>
+    <!--ends here-->
+
+  </div>
+</section>
+<div class="bg">
+
+</div>
+<script src="app.js"></script>
+</body>
+</html>
